@@ -8,5 +8,5 @@ Basic Sample scene for roguelike game inspired by Vampire Survivors with:
 
 In this scene there is only one weapon, one enemy type, 2 short waves, no other scenes such as shop, but that would be added easily.
 
-I take tileset assets from here: https://0x72.itch.io/dungeontileset-ii 
-You can take a look from here: https://erincuysal.itch.io/roguelike-sample-scene
+- I take tileset assets from here: https://0x72.itch.io/dungeontileset-ii
+- You can take a look from here: https://erincuysal.itch.io/roguelike-sample-scene
