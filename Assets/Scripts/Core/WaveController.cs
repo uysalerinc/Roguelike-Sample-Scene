@@ -53,12 +53,14 @@ namespace RL.Core {
         }
         public IEnumerator SpawnEnemy(List<GameObject> enemyPrefabs, int enemyCount) {
             yield return new WaitForSeconds(0.5f);
-            if (isWaveEnded) yield break;
             while(!isWaveEnded){
                 int spawnPointIndex = Random.Range(0,spawnPoints.Length);
                 for(int i = 0; i < enemyCount; i++) {
+                    if (isWaveEnded) yield break;
                     GameObject newEnemy = Instantiate(enemyPrefabs[Random.Range(0, enemyPrefabs.Count)], spawnPoints[spawnPointIndex].position, Quaternion.identity);
+                    print(i);
                     yield return new WaitForSeconds(0.3f);
+                    
                 }
                 yield return new WaitForSeconds(currentWave.interval);
             }
