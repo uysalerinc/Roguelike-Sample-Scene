@@ -16,4 +16,4 @@ MonoBehaviour:
   - {fileID: 5849211841379857442, guid: ab7c16bb13779bd46b22b4bb83c1a4c5, type: 3}
   waveDuration: 15
   hasBoss: 0
-  interval: 3
+  interval: 1

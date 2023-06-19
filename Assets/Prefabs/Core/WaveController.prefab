@@ -52,7 +52,6 @@ MonoBehaviour:
   waveNumberInGameObject: {fileID: 216064285}
   waveTimerInGameObject: {fileID: 462848531}
   spawnPoints:
-  - {fileID: 372284072431533789}
   - {fileID: 372284072420627347}
   - {fileID: 372284072014803917}
   - {fileID: 372284072822027291}
@@ -246,11 +245,6 @@ Transform:
 --- !u!4 &372284072420627347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9043618176875394580, guid: 1cfa6772ecffbbd4a9fdb8f4e0900be7, type: 3}
-  m_PrefabInstance: {fileID: 8695321360438044039}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &372284072431533789 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9043618176861444954, guid: 1cfa6772ecffbbd4a9fdb8f4e0900be7, type: 3}
   m_PrefabInstance: {fileID: 8695321360438044039}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &372284072822027291 stripped
